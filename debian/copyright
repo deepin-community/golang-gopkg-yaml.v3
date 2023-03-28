@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: gopkg.in/yaml.v3
 Source: https://github.com/go-yaml/yaml/tree/v3
+Upstream-Name: gopkg.in/yaml.v3
 
 Files: *
 Copyright: 2011-2019 Canonical
@@ -20,10 +20,12 @@ Files:
  yamlh.go
  yamlprivateh.go
 Copyright: 2006-2010 Kirill Simonov
+           2006-2011 Kirill Simonov
 License: Expat
 Comment:
- These files were ported to Go from C files of libyaml, and thus are still
- covered by their original copyright and license.
+ These files were ported to Go from C files of libyaml, and thus are
+ still covered by their original MIT license, with the additional
+ copyright staring in 2011 when the project was ported over.
 
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
